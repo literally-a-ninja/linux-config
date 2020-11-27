@@ -11,6 +11,9 @@ fi
 echo Grabbing dependencies...
 git submodule update --init --recursive
 
+echo Fixing line endings...
+find dependencies/ | grep install.sh --color=never | xargs dos2unix 1> /dev/null
+
 echo Installing gnome-tweaks...
 apt-get -y install gnome-tweaks 1> /dev/null
 
