@@ -8,6 +8,9 @@ then
     exit
 fi
 
+echo Grabbing dependencies...
+git submodule update --init --recursive
+
 echo Installing gnome-tweaks...
 apt-get -y install gnome-tweaks 1> /dev/null
 

@@ -1,0 +1,6 @@
+[submodule "Reversal-icon-theme"]
+	path = dependencies/Reversal-icon-theme
+	url = git@github.com:yeyushengfan258/Reversal-icon-theme.git
+[submodule "dependencies/WhiteSur-gtk-theme"]
+	path = dependencies/WhiteSur-gtk-theme
+	url = git@github.com:vinceliuice/WhiteSur-gtk-theme.git
