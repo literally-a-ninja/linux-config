@@ -7,8 +7,8 @@ echo Installing fisher package manager...
 curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher 1> /dev/null
 
 echo Installing various scripts...
-curl -sL $transform > /usr/local/bin/transform
-chmod u+x /usr/local/bin/transform
+sudo curl -sL $transform > /usr/local/bin/transform
+sudo chmod u+x /usr/local/bin/transform
 
 echo Fisher : Installing jethrokuan/fzf ...
 fisher install jethrokuan/fzf 1> /dev/null
