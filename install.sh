@@ -32,4 +32,8 @@ echo Setting up theme files...
 [ ! -e ~/.themes ] &&  mkdir ~/.themes
 cp -rf ./.themes/* ~/.themes
 
+echo Setting up vim config...
+[ ! -e ~/.vim ] &&  mkdir ~/.vim
+cp -rf ./.vim/* ~/.vim
+
 echo Done! Enjoy your themes :-\)
